@@ -1,0 +1,30 @@
+<!DOCTYPE bryanscafe [
+    <!ELEMENT bryanscafe (lunchmenu)>
+    <!ELEMENT lunchmenu (food, price, descirption)>
+    <!ELEMENT food (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+<?xml-stylesheet type="text/xsl" href="bryanscafe.xsl"?>
+<bryanscafe>
+    <lunchmenu>
+        <food>Beetroot and feta salad</food>
+        <price>$15.00</price>
+        <description>Suitable for vegetarians, made with fresh beetroot.</description>
+    </lunchmenu>
+    <lunchmenu>
+        <food>Sourdough Rye Sandwich</food>
+        <price>$18.00</price>
+        <description>Cheese and salad sandwich made with organic, sourdough rye bread.</description>
+    </lunchmenu>
+    <lunchmenu>
+        <food>Spinach Pie and Salad</food>
+        <price>$20.00</price>
+        <description>Tasty pie with salad.</description>
+    </lunchmenu>
+    <lunchmenu>
+        <food>Feta pancakes with salad </food>
+        <price>$19.50</price>
+        <description>Tasty pancake filled with feta and salad.</description>
+    </lunchmenu>
+</bryanscafe>
